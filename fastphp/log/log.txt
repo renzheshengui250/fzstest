@@ -1,0 +1,123 @@
+select * from user where id = 1 ------ 2018-10-15 20:49:30
+select * from user where id = 1 ------ 2018-10-15 20:49:31
+select * from user where id = 1 ------ 2018-10-15 20:55:16
+UPDATE user SET name = '封泽生'  WHERE id = 2 ------ 2018-10-15 22:05:34
+SELECT * FROM user WHERE id = 1 ------ 2018-10-15 22:08:10
+DELETE FROM user WHERE name = '鲁智深' AND sex = 2 ------ 2018-09-16 19:43:27
+DELETE FROM user WHERE name = '鲁智深' AND sex = 2 ------ 2018-09-16 19:44:09
+UPDATE user SET age = 33  WHERE name = '封泽生' AND sex = 2 ------ 2018-09-16 19:46:06
+UPDATE user SET age = 33  WHERE name = '封泽生' AND sex = 2 ------ 2018-09-16 19:46:25
+SELECT * FROM user WHERE id = 2 ------ 2018-09-16 19:52:16
+SELECT * FROM user ------ 2018-09-16 19:53:53
+SELECT * FROM user ------ 2018-09-16 20:14:17
+SELECT * FROM user where 1 = 1 AND name = '封泽生' AND sex = 1 ------ 2018-09-16 20:20:42
+SELECT * FROM user WHERE 1 = 1 AND id >1 and id < 5 ------ 2018-09-16 20:22:45
+SELECT * FROM user WHERE 1 = 1 AND id > 1 and id < 5 ------ 2018-09-16 20:24:28
+SELECT * FROM user WHERE 1 = 1 AND id > 1 and id < 5 ------ 2018-09-16 20:27:00
+SELECT * FROM user WHERE 1 = 1 AND id = 2 ------ 2018-09-16 20:27:39
+select * from user where id > 1 ------ 2018-09-16 20:31:48
+SELECT * FROM user WHERE 1 = 1 AND  ------ 2018-09-16 20:37:17
+SELECT * FROM user WHERE 1 = 1 ------ 2018-09-16 20:38:35
+SELECT * FROM user WHERE 1 = 1 AND id = 1 ------ 2018-09-16 20:39:36
+SELECT * FROM user WHERE 1 = 1  AND id = 1 AND name = '封泽生' ------ 2018-10-17 13:45:43
+SELECT * FROM user WHERE 1 = 1  AND id = 1 AND name = '封泽生' ------ 2018-10-17 13:55:20
+SELECT * FROM user WHERE 1 = 1  AND id = 1 and name = '封泽生' ------ 2018-10-17 13:56:23
+SELECT * FROM user WHERE 1 = 1 AND id = 1 and name = '封泽生' ------ 2018-10-17 13:56:54
+SELECT * FROM user WHERE 1 = 1 AND id = 1 AND name = '封泽生' ------ 2018-10-17 13:57:18
+SELECT * FROM user WHERE 1 = 1 AND id = 5 ------ 2018-10-17 13:57:30
+SELECT * FROM user WHERE 1 = 1  AND id > 1 and id < 5 ------ 2018-10-17 13:58:27
+SELECT * FROM user WHERE 1 = 1  AND id >= 1 and id < 5 ------ 2018-10-17 13:58:35
+SELECT * FROM user WHERE 1 = 1  AND id = 1 AND name = '封泽生' ------ 2018-10-17 13:59:24
+SELECT * FROM user WHERE 1 = 1 AND id >= 1 ------ 2018-10-17 14:00:00
+UPDATE user SET name = '鲁智深' , sex = 2 WHERE 1 = 1  AND age = 33 ------ 2018-10-17 14:07:52
+UPDATE user SET name = '鲁智深' , sex = 2 WHERE 1 = 1  AND id = 1 ------ 2018-10-17 14:18:30
+UPDATE user SET name = '鲁智32深' , sex = 2 WHERE 1 = 1  AND id = 1 ------ 2018-10-17 14:18:44
+SELECT * FROM user WHERE 1 = 1  AND id = 1 AND name = '封泽生' ------ 2018-10-17 14:19:13
+SELECT * FROM user WHERE 1 = 1  AND id = 1 AND name = '封泽生' ------ 2018-10-17 14:24:27
+SELECT * FROM user WHERE 1 = 1  AND id = 2 AND name = '封泽生' ------ 2018-10-17 14:25:08
+SELECT * FROM user WHERE 1 = 1  AND id = 1 and name = '封泽生' ------ 2018-10-17 14:25:23
+SELECT * FROM user WHERE 1 = 1  AND id = 2 and name = '封泽生' ------ 2018-10-17 14:25:32
+SELECT * FROM user WHERE 1 = 1  AND id = 2 and name = '封泽生' ------ 2018-10-17 14:25:38
+SELECT * FROM user WHERE 1 = 1  AND id = 2 and name = '封泽生' ------ 2018-10-17 14:25:47
+SELECT * FROM user WHERE 1 = 1  AND id = 5 ------ 2018-10-17 14:25:55
+SELECT * FROM user WHERE 1 = 1  AND id = 2 AND name = '封泽生' ------ 2018-10-17 14:26:41
+SELECT * FROM user WHERE 1 = 1  AND id = 2 AND name = '封泽生' ------ 2018-10-17 14:26:59
+SELECT * FROM user WHERE 1 = 1  AND id >= 1 and id < 5 ------ 2018-10-17 14:27:09
+SELECT * FROM user WHERE 1 = 1  AND id >= 1 and id < 5 ------ 2018-10-17 14:27:37
+UPDATE user SET name = '鲁智深' , sex = 2 WHERE 1 = 1  AND age = 33 ------ 2018-10-17 14:27:54
+UPDATE user SET name = '鲁3智深' , sex = 2 WHERE 1 = 1  AND age = 33 ------ 2018-10-17 14:28:15
+UPDATE user SET name = '鲁智32深' , sex = 5 WHERE 1 = 1  AND id = 1 ------ 2018-10-17 14:28:40
+DELETE FROM user WHERE 1 = 1  AND id = 1 ------ 2018-10-17 14:34:08
+DELETE FROM user WHERE 1 = 1  AND name = '鲁智深' AND sex = 2 ------ 2018-10-17 14:34:29
+DELETE FROM user WHERE 1 = 1  AND name = '封泽生' AND sex = 1 ------ 2018-10-17 14:34:45
+select * from user where id > 1 ------ 2018-10-17 14:37:38
+select * from user where id > 1 ------ 2018-10-17 14:41:12
+select * from user where id = 1 ------ 2018-10-17 14:41:36
+select * from user where id > 1 ------ 2018-10-17 14:42:24
+select * from user where id > 1 ------ 2018-10-17 15:00:53
+SELECT * FROM user WHERE 1 = 1  ------ 2018-10-17 15:09:38
+SELECT * FROM navigation WHERE 1 = 1  ------ 2018-10-17 15:30:41
+SELECT * FROM navigation WHERE 1 = 1  ------ 2018-10-17 15:36:54
+SELECT * FROM navigation WHERE 1 = 1  ------ 2018-10-17 15:37:34
+SELECT * FROM navigation WHERE 1 = 1  ------ 2018-10-17 15:38:02
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 15:48:49
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 15:48:49
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 15:49:55
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 15:49:55
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 15:57:17
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 15:57:17
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 15:58:25
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 15:58:25
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:00:23
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:00:23
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:00:34
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:00:34
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:01:11
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:01:11
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:03:01
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:03:01
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:04:40
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:04:40
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:15:05
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:15:05
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:29:24
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:29:24
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:29:24
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:30:48
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:30:48
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:30:48
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:31:09
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:31:09
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:31:09
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:31:24
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:31:24
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:31:24
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:40:37
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:40:37
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:40:37
+SELECT * FROM news WHERE 1 = 1  AND news_state = 1 ------ 2018-10-17 16:40:37
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:49:41
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:49:41
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:49:41
+SELECT * FROM news WHERE 1 = 1  AND news_state = 1 ------ 2018-10-17 16:49:41
+SELECT * FROM case WHERE 1 = 1  AND case_state = 1 ------ 2018-10-17 16:49:41
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:50:23
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:50:23
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:50:23
+SELECT * FROM news WHERE 1 = 1  AND news_state = 1 ------ 2018-10-17 16:50:23
+SELECT * FROM case WHERE 1 = 1  AND case_state = 1 ------ 2018-10-17 16:50:23
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:51:31
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:51:31
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:51:31
+SELECT * FROM news WHERE 1 = 1  AND news_state = 1 ------ 2018-10-17 16:51:31
+SELECT * FROM case WHERE 1 = 1  AND case_state = 1 ------ 2018-10-17 16:51:31
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:53:15
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:53:15
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:53:15
+SELECT * FROM news WHERE 1 = 1  AND news_state = 1 ------ 2018-10-17 16:53:15
+SELECT * FROM case_app WHERE 1 = 1  AND case_state = 1 ------ 2018-10-17 16:53:15
+SELECT * FROM navigation WHERE 1 = 1  AND navigation_state = 1 ------ 2018-10-17 16:58:33
+SELECT * FROM slideshow WHERE 1 = 1  AND slide_state = 1 ------ 2018-10-17 16:58:33
+SELECT * FROM product WHERE 1 = 1  AND product_state = 1 ------ 2018-10-17 16:58:33
+SELECT * FROM news WHERE 1 = 1  AND news_state = 1 ------ 2018-10-17 16:58:33
+SELECT * FROM case_app WHERE 1 = 1  AND case_state = 1 ------ 2018-10-17 16:58:33
